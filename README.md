@@ -2,6 +2,4 @@
 
 Web repo for class assignments.
 
-Ashley Levine
-vvv
-hello
+Ashley Levine - acl133@miami.edu
