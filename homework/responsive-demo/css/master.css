@@ -1,0 +1,38 @@
+
+
+.sample {
+  color: red;
+  font-size: 22px;
+  width: 40%;
+  height:200px;
+  background: orange;
+  margin: auto;
+}
+
+/*over 600 */
+
+@media only screen and (min-width: 600px) {
+  .sample {
+    color: yellow;
+    font-size: 32px;
+    width: 60%;
+    height: 300px;
+    background: blue;
+    border: 2px solid pink;
+    margin: auto;
+  }
+}
+
+/*over 800 */
+
+@media only screen and (min-width: 800px) {
+  .sample {
+    color: yellow;
+    font-size: 36px;
+    width: 80%;
+    height: 400px;
+    background: green;
+    border: 2px solid yellow;
+    margin: auto;
+  }
+}
