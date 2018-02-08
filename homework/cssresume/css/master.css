@@ -3,12 +3,14 @@ body {
   color: rgb(252, 64, 239);
 }
 
-h1 {
+#name {
   color: purple;
   text-align: center;
   font-family: 'Raleway';
   font-size: 42px;
 }
+
+
 
 address {
   color: rgb(252, 64, 239);
@@ -31,8 +33,21 @@ h2 {
   font-size: 26px;
 }
 
-strong {
+ul {
+  margin-top: 5px;
+}
+
+.company, .state {
   color: red;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
 
 em {
