@@ -1,12 +1,30 @@
 body {
-  background: red;
+  background: pink;
   color: white;
 }
 
+h1 {
+  color: purple;
+  text-align: center;
 }
 
-.demo:hover {
-    box-shadow: 8px 8px 0 #000;
-    margin-left: 12px;
-    margin-top: 12px;
+address {
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  color: purple;
+}
+
+strong {
+  color: red;
+}
+
+em {
+  color: red;
 }
