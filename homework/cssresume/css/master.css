@@ -1,24 +1,32 @@
 body {
-  background: pink;
-  color: white;
+  background: rgba(255, 214, 247, 0.84);
+  color: rgb(252, 64, 239);
 }
 
 h1 {
   color: purple;
   text-align: center;
+  font-family: 'Raleway';
 }
 
 address {
-  color: white;
+  color: rgb(252, 64, 239);
   text-align: center;
 }
 
 a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
   color: white;
+  text-decoration: underline;
 }
 
 h2 {
   color: purple;
+  font-family: 'Raleway';
 }
 
 strong {
@@ -27,4 +35,8 @@ strong {
 
 em {
   color: red;
+}
+
+b {
+  color: rgb(178, 91, 255);
 }
