@@ -7,6 +7,7 @@ h1 {
   color: purple;
   text-align: center;
   font-family: 'Raleway';
+  font-size: 42px;
 }
 
 address {
@@ -27,6 +28,7 @@ a:hover {
 h2 {
   color: purple;
   font-family: 'Raleway';
+  font-size: 26px;
 }
 
 strong {
@@ -39,4 +41,5 @@ em {
 
 b {
   color: rgb(178, 91, 255);
+  font-size: 14px;
 }
