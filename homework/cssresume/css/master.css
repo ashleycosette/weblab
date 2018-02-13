@@ -4,25 +4,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-#name {
-  color: purple;
-  text-align: center;
-  font-family: 'Raleway';
-  font-size: 42px;
-}
-
-.year {
-  color: purple;
-}
-
-
-
-address {
-  color: rgb(252, 64, 239);
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
 a {
   color: purple;
   text-decoration: none;
@@ -43,6 +24,35 @@ ul {
   margin-top: 5px;
 }
 
+em {
+  color: red;
+}
+
+b {
+  color: rgb(178, 91, 255);
+  font-size: 14px;
+}
+
+
+#name {
+  color: purple;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 42px;
+  text-shadow: 1px 1px 0 #ff77f1;
+}
+
+#address {
+  color: rgb(252, 64, 239);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.year {
+  color: purple;
+}
+
 .company, .state {
   color: red;
 }
@@ -54,15 +64,6 @@ ul {
 .container {
   width: 80%;
   margin: auto;
-}
-
-em {
-  color: red;
-}
-
-b {
-  color: rgb(178, 91, 255);
-  font-size: 14px;
 }
 
 .final {
