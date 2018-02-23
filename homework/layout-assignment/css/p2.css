@@ -2,6 +2,7 @@ h1 {
 color: rgb(252, 64, 239);
 text-align: center;
 font-family: 'Roboto', sans-serif;
+text-shadow: 2px 2px 0 rgb(255, 255, 255);
 }
 
 body {
