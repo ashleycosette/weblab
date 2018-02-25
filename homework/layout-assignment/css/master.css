@@ -5,7 +5,7 @@ body {
 .picture {
   width: 50%;
   margin: auto;
-  border: 6px solid white;
+  border: 8px solid white;
   padding: 10px;
 }
 
@@ -52,6 +52,7 @@ body {
   /*border: 1px solid #ccc;*/
 }
 
+
 a {
   color: rgb(255, 0, 142);
   text-decoration: none;
@@ -71,6 +72,9 @@ a:hover {
 
 .tab1 {
   grid-area: tab1;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 .tab2 {
@@ -79,6 +83,7 @@ a:hover {
 
 .tab3 {
   grid-area: tab3;
+
 }
 
 
