@@ -17,3 +17,16 @@ h2 {
 h3, h4, h5 {
   color: purple;
 }
+
+#photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  column-gap:           0px;
+  }
+
+#photos img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
