@@ -60,24 +60,27 @@ body {
 
 
 #fphotos {
+  /* display: grid; */
+  margin: auto;
   line-height: 0;
-  -moz-column-count: 4;
+  -moz-column-count:    4;
   -webkit-column-count: 4;
-  column-count: 4;
-  column-gap: 0px;
-  width: 50%;
+  column-count:         4;
+  column-gap:           0px;
+  box-sizing: border-box;
+  /* width: 100%; */
+/* width: 50%;
   margin: auto;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 10px; */
  }
 
-  #fphotos img {
-
- width: 50%;
+#fphotos img {
+ border: 2px solid white;
+ padding: 2px;
+ width: 100%;
  height: auto;
  margin: auto;
- border: 8px solid white;
- padding: 10px;
  }
 
 .header1page4 {
