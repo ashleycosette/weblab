@@ -50,6 +50,11 @@ body {
   color: purple;
 }
 
+h6 {
+  font-size: 16px;
+}
+
+
 #fphotos {
   -moz-column-count:    4;
   -webkit-column-count: 4;
