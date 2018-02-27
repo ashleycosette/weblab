@@ -50,29 +50,35 @@ body {
   color: purple;
 }
 
-h6 {
+.header3 {
+  font-size: 16px;
+}
+
+.header6 {
   font-size: 16px;
 }
 
 
 #fphotos {
-  -moz-column-count:    4;
+  line-height: 0;
+  -moz-column-count: 4;
   -webkit-column-count: 4;
-  column-count:         4;
-  column-gap:           0px;
+  column-count: 4;
+  column-gap: 0px;
   width: 50%;
   margin: auto;
   display: grid;
   grid-gap: 10px;
-  }
+ }
 
   #fphotos img {
-    width: 50%;
-    height: auto;
-    margin: auto;
-    border: 8px solid white;
-    padding: 10px;
-  }
+
+ width: 50%;
+ height: auto;
+ margin: auto;
+ border: 8px solid white;
+ padding: 10px;
+ }
 
 .header1page4 {
   color: rgb(252, 64, 239);
@@ -83,6 +89,7 @@ h6 {
 }
 
 #photos {
+   line-height: 0;
   -moz-column-count:    4;
   -webkit-column-count: 4;
   column-count:         4;
