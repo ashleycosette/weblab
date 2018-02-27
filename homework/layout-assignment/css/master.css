@@ -83,6 +83,14 @@ body {
  margin: auto;
  }
 
+
+#fphotos:hover {
+     box-shadow: 20px 20px 0 #ffffff;
+     margin-left: 12px;
+     margin-top: 12px;
+ }
+
+
 .header1page4 {
   color: rgb(252, 64, 239);
   text-align: center;
