@@ -38,12 +38,14 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px 0 rgb(255, 255, 255);
+  font-size: 36px;
   }
 
 .header2 {
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 0, 142);
   text-align: center;
+  font-size: 30px;
 }
 
 .header3, .header4, .header5, .header6 {
@@ -53,6 +55,11 @@ body {
 .header3 {
   font-size: 16px;
 }
+
+.header4 {
+  font-size: 16px;
+}
+
 
 .header6 {
   font-size: 16px;
