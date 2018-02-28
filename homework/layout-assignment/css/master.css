@@ -84,11 +84,11 @@ body {
  }
 
 
-#fphotos:hover {
+/* #fphotos:hover {
      box-shadow: 20px 20px 0 #ffffff;
      margin-left: 12px;
      margin-top: 12px;
- }
+ }*/
 
 
 .header1page4 {
@@ -132,6 +132,9 @@ body {
   /*border: 1px solid #ccc;*/
 }
 
+h6 {
+  text-align: center;
+}
 
 a {
   color: rgb(255, 0, 142);
