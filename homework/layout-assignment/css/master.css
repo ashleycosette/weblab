@@ -90,6 +90,12 @@ body {
  margin: auto;
  }
 
+.threeimage {
+max-width: 100px;
+
+
+}
+
 
 /* #fphotos:hover {
      box-shadow: 20px 20px 0 #ffffff;
