@@ -3,8 +3,8 @@ div {
   position:absolute;
   top:50%; left:75%;
 }
-div:nth-of-type(odd) { background:black; }
-div:nth-of-type(even) { background:white; border:2px solid black; }
+div:nth-of-type(odd) { background:rgb(255, 40, 221); border:8px solid black }
+div:nth-of-type(even) { background:blue; border:8px solid black; }
 div:nth-of-type(11) {
   height:10px; width:10px;
   margin-top:-5px; margin-left:-5px;
