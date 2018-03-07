@@ -139,7 +139,7 @@ body{
   position: absolute;
   width: 506px;
   z-index:3;
-  animation: orbitvenus 15s infinite linear;
+  animation: orbitvenus 10s infinite linear;
   top: -19px;
 }
 .venus .planet {
