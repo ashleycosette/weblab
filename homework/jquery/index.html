@@ -5,16 +5,32 @@
     <title>Jquery Demo</title>
     <link rel="stylesheet" href="css/master.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
   </head>
   <body>
 
+<div class="box">
+  My Box is cool!
+</div>
+
+<a href="#" id="sam">Click Sam!</a> | <a href="#" id="bob">Click Bob!</a>
 
 <script type="text/javascript">
 $(document).ready(function(){
-      //all js goes in here
 
-    });
+  // $(".box").css("background-color", "blue");
+  $("#sam").click(function(){
+    $(".box").removeClass( "box-bob" );
+    $(".box").addClass( "box-big" );
+    $(".box").html("Woohooo you clicked Sam!");
+    })
+
+  $("#bob").click(function(){
+    $(".box").removeClass( "box-big" );
+    $(".box").addClass( "box-bob" );
+    $(".box").html("Woohooo you clicked Bob!");
+      })
+
+        });
 </script>
   </body>
 </html>
