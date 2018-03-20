@@ -12,7 +12,11 @@
   My Box is cool!
 </div>
 
-<a href="#" id="sam">Click Sam!</a> | <a href="#" id="bob">Click Bob!</a> | <a href="#" id="jane">Hide and show</a> | <a href="#" id="mary">Show</a>
+<a href="#" id="sam">Click Sam!</a> | <a href="#" id="bob">Click Bob!</a>
+<br>
+<a href="#" id="jane">Hide and show</a> | <a href="#" id="mary">Show</a>
+<!-- <br><br>
+<img src="" -->
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -32,6 +36,7 @@ $(document).ready(function(){
 
   $("#jane").click(function(){
     $(".box").fadeOut(1000);
+    // $("#pup").attr("src", "images/lep.jpg");
   })
 
   $("#mary").click(function(){
