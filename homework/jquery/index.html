@@ -12,7 +12,7 @@
   My Box is cool!
 </div>
 
-<a href="#" id="sam">Click Sam!</a> | <a href="#" id="bob">Click Bob!</a>
+<a href="#" id="sam">Click Sam!</a> | <a href="#" id="bob">Click Bob!</a> | <a href="#" id="jane">Hide and show</a> | <a href="#" id="mary">Show</a>
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -22,13 +22,21 @@ $(document).ready(function(){
     $(".box").removeClass( "box-bob" );
     $(".box").addClass( "box-big" );
     $(".box").html("Woohooo you clicked Sam!");
-    })
+  })
 
   $("#bob").click(function(){
     $(".box").removeClass( "box-big" );
     $(".box").addClass( "box-bob" );
     $(".box").html("Woohooo you clicked Bob!");
-      })
+  })
+
+  $("#jane").click(function(){
+    $(".box").fadeOut(1000);
+  })
+
+  $("#mary").click(function(){
+    $(".box").fadeIn(4000);
+  });
 
         });
 </script>
