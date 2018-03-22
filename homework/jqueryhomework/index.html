@@ -10,18 +10,21 @@
 
 <div class="box">
   How To Make Chocolate Chip Cookies!
+  <img src="images/cookie.jpg" alt="" id="cookie" width="100px">
+  <div id="caption">original caption</div>
 </div>
-<img src="images/cookie.jpg" alt="cookie" width="284" height="213">
+<!-- <img src="images/cookie.jpg" alt="cookie" width="284" height="213"> -->
 
 <!-- <div id="cookie">cookie</div> -->
 <!-- <img id="cookies" src="images/cookie.jpg"/> -->
 
 
-<a href="#" id="one">Step 1</a> | <a href="#" id="two">Step 2</a>
-<br>
-<a href="#" id="three">Step 3</a> | <a href="#" id="four">Step 4</a>
-<br>
-<a href="#" id="five">Step 5</a> | <a href="#" id="ingredients">Ingredients</a>
+<a href="#" id="one">Step 1</a>
+<a href="#" id="two">Step 2</a>
+<a href="#" id="three">Step 3</a>
+<a href="#" id="four">Step 4</a>
+<a href="#" id="five">Step 5</a>
+<a href="#" id="ingredients">Ingredients</a>
 
 <!-- <br><br>
 <img src="" -->
@@ -35,29 +38,40 @@ $(document).ready(function(){
     $(".box").addClass( "box-one" );
     $(".box").html("Preheat oven to 350 degrees");
     $("#cookie").attr("src","images/cookie.jpg");
-    $(".box").fadeOut(4000);
+    $("#caption").html("this is a leopard");
+      $("#one").hide();
+      $("#two").show();
+    // $(".box").fadeOut(4000);
   })
 
   $("#two").click(function(){
     $(".box").removeClass( "box-one" );
     $(".box").addClass( "box-two" );
     $(".box").html("Mix sugars, butter, vanilla and egg in large bowl");
-    $(".box").fadeIn(1000);
+    // $(".box").fadeIn(1000);
+    $("#two").hide();
+    $("#three").show();
   })
 
   $("#three").click(function(){
     $(".box").html("Stir in flour, baking soda and salt");
-    $(".box").fadeOut(4000);
+    // $(".box").fadeOut(4000);
+    $("#three").hide();
+    $("#four").show();
   })
 
   $("#four").click(function(){
     $(".box").html("Stir in chocolate chips");
-    $(".box").fadeIn(1000);
+    // $(".box").fadeIn(1000);
+    $("#four").hide();
+    $("#five").show();
   });
 
   $("#five").click(function(){
     $(".box").html("Put on a tray and bake for 10 minutes");
-    $(".box").fadeOut(4000);
+    // $(".box").fadeOut(4000);
+    $("#five").hide();
+
   });
 
   $("#box").click(function(){
@@ -66,7 +80,7 @@ $(document).ready(function(){
 
   $("#ingredients").click(function(){
     $(".box").html("Ingredients: <br> 1 cup butter softened <br> 1 cup white sugar <br> 1 cup packed brown sugar <br> 1 egg <br> 3 teaspoons vailla extract <br> 4 cups all purpose flour <br> 1 teaspoon baking soda 	<br>1 teaspoon salt <br> 4 cups semisweet chocolate chips" );
-    $(".box").fadeIn(1000);
+    // $(".box").fadeIn(1000);
   });
 
 
