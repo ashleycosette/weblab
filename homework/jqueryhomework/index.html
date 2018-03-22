@@ -9,7 +9,7 @@
   <body>
 
 <div class="box">
-  How To Make Chocolate Chip Cookies!
+  <span id="message">How To Make Chocolate Chip Cookies!</span>
   <img src="images/cookie.jpg" alt="" id="cookie" width="100px">
   <div id="caption"></div>
 </div>
@@ -35,13 +35,12 @@ $(document).ready(function(){
   $("#box").click(function(){
     $(".box").html("How to make chocolate chip cookies" );
     // $(".box").css("background-color", "blue");
-
   });
 
   $("#one").click(function(){
     $(".box").removeClass( "box-two" );
     $(".box").addClass( "box-one" );
-    $(".box").html("Preheat oven to 350 degrees");
+    $("#message").html("Preheat oven to 350 degrees");
     $("#cookie").attr("src","images/cookies.jpg");
     $("#caption").html("this is a cookie");
       $("#one").hide();
