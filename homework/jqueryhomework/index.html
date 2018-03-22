@@ -11,16 +11,17 @@
 <div class="box">
   How To Make Chocolate Chip Cookies!
 </div>
+<img src="images/cookie.jpg" alt="cookie" width="284" height="213">
 
 <!-- <div id="cookie">cookie</div> -->
 <!-- <img id="cookies" src="images/cookie.jpg"/> -->
 
 
-<a href="#" id="one">Step 1!</a> | <a href="#" id="two">Step 2!</a>
+<a href="#" id="one">Step 1</a> | <a href="#" id="two">Step 2</a>
 <br>
-<a href="#" id="three">Step 3!</a> | <a href="#" id="four">Step 4!</a>
+<a href="#" id="three">Step 3</a> | <a href="#" id="four">Step 4</a>
 <br>
-<a href="#" id="five">Step 5!</a> | <a href="#" id="main">Main Page</a>
+<a href="#" id="five">Step 5</a> | <a href="#" id="ingredients">Ingredients</a>
 
 <!-- <br><br>
 <img src="" -->
@@ -34,37 +35,41 @@ $(document).ready(function(){
     $(".box").addClass( "box-one" );
     $(".box").html("Preheat oven to 350 degrees");
     $("#cookie").attr("src","images/cookie.jpg");
+    $(".box").fadeOut(4000);
   })
 
   $("#two").click(function(){
     $(".box").removeClass( "box-one" );
     $(".box").addClass( "box-two" );
     $(".box").html("Mix sugars, butter, vanilla and egg in large bowl");
+    $(".box").fadeIn(1000);
   })
 
   $("#three").click(function(){
     $(".box").html("Stir in flour, baking soda and salt");
-    // $(".box").fadeOut(1000);
+    $(".box").fadeOut(4000);
   })
 
   $("#four").click(function(){
     $(".box").html("Stir in chocolate chips");
-    // $(".box").fadeIn(4000);
+    $(".box").fadeIn(1000);
   });
 
   $("#five").click(function(){
     $(".box").html("Put on a tray and bake for 10 minutes");
-    // $(".box").fadeIn(4000);
+    $(".box").fadeOut(4000);
   });
-
 
   $("#box").click(function(){
     $(".box").html("How to make chocolate chip cookies" );
   });
 
-  $("#main").click(function(){
+  $("#ingredients").click(function(){
     $(".box").html("Ingredients: <br> 1 cup butter softened <br> 1 cup white sugar <br> 1 cup packed brown sugar <br> 1 egg <br> 3 teaspoons vailla extract <br> 4 cups all purpose flour <br> 1 teaspoon baking soda 	<br>1 teaspoon salt <br> 4 cups semisweet chocolate chips" );
+    $(".box").fadeIn(1000);
   });
+
+
 
         });
 </script>
