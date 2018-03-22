@@ -11,7 +11,7 @@
 <div class="box">
   How To Make Chocolate Chip Cookies!
   <img src="images/cookie.jpg" alt="" id="cookie" width="100px">
-  <div id="caption">original caption</div>
+  <div id="caption"></div>
 </div>
 <!-- <img src="images/cookie.jpg" alt="cookie" width="284" height="213"> -->
 
@@ -32,13 +32,18 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-  // $(".box").css("background-color", "blue");
+  $("#box").click(function(){
+    $(".box").html("How to make chocolate chip cookies" );
+    // $(".box").css("background-color", "blue");
+
+  });
+
   $("#one").click(function(){
     $(".box").removeClass( "box-two" );
     $(".box").addClass( "box-one" );
     $(".box").html("Preheat oven to 350 degrees");
-    $("#cookie").attr("src","images/cookie.jpg");
-    $("#caption").html("this is a leopard");
+    $("#cookie").attr("src","images/cookies.jpg");
+    $("#caption").html("this is a cookie");
       $("#one").hide();
       $("#two").show();
     // $(".box").fadeOut(4000);
@@ -72,10 +77,6 @@ $(document).ready(function(){
     // $(".box").fadeOut(4000);
     $("#five").hide();
 
-  });
-
-  $("#box").click(function(){
-    $(".box").html("How to make chocolate chip cookies" );
   });
 
   $("#ingredients").click(function(){
