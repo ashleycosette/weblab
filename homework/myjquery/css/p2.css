@@ -15,8 +15,8 @@ body {
 
 .header {
   background: rgba(255, 10, 172, 0.68);
-  width: 500px;
-  margin: 50px auto;
+  /* width: 500px; */
+  margin: auto;
 }
 
 .header .top {
@@ -77,4 +77,23 @@ body {
   padding: 12px;
   color: #fff;
   font-size: 22px;
+}
+
+
+
+.content {
+  background: purple;
+  width: auto;
+  height: 600px;
+  padding: 12px;
+}
+
+.content-p1 {
+  background: green;
+
+}
+
+.content-p2 {
+  background: green;
+
 }
