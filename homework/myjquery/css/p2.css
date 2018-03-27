@@ -116,3 +116,13 @@ body {
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
 }
+
+
+#cookie {
+  margin-top: 20px;
+  width: auto;
+  height: 50%;
+  margin: auto;
+  padding: 10px;
+
+}
