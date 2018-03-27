@@ -83,14 +83,39 @@ $(document).ready(function(){
       // $(".content").removeClass( "box-bob" );
       $(".content").addClass( "content-p1" );
       $("#title").html("List of Ingredients");
-      $("#bodytext").html("ingredients go here");
+      $("#bodytext").html("1 cup butter softened <br> 1 cup white sugar <br> 1 cup packed brown sugar <br> 1 egg <br> 3 teaspoons vailla extract <br> 4 cups all purpose flour <br> 1 teaspoon baking soda <br> 4 cups semisweet chocolate chips");
     })
+
 
 $("#steptwo").click(function(){
   $(".content").addClass( "content-p2" );
-  $("#title").html("Step one");
-  $("#bodytext").html("some stuff here....");
+  $("#title").html("Step Two");
+  $("#bodytext").html("Mix sugars, butter, vanilla and egg in large bowl");
 })
+
+$("#stepthree").click(function(){
+  $(".content").addClass( "content-p3" );
+  $("#title").html("Step Three");
+  $("#bodytext").html("Stir in flour, baking soda and salt");
+})
+
+$("#stepfour").click(function(){
+  $(".content").addClass( "content-p4" );
+  $("#title").html("Step Four");
+  $("#bodytext").html("Stir in chocolate chips");
+})
+
+$("#stepfive").click(function(){
+  $(".content").addClass( "content-p5" );
+  $("#title").html("Step Five");
+  $("#bodytext").html("Put on a tray and bake for 10 minutes and then ENJOY!!");
+})
+
+// $("#stepone").click(function(){
+//   $(".content").addClass( "content-p6" );
+//   $("#title").html("Step One");
+//   $("#bodytext").html("Preheat oven to 350 degrees");
+
 
 
     });

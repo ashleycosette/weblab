@@ -82,18 +82,37 @@ body {
 
 
 .content {
-  background: purple;
+  background: rgba(148, 102, 214, 0.63);
   width: auto;
   height: 600px;
   padding: 12px;
 }
 
 .content-p1 {
-  background: green;
+  background: rgba(255, 142, 240, 0.43);
 
 }
 
 .content-p2 {
-  background: green;
+  background: rgba(255, 142, 240, 0.43);
 
+}
+
+
+
+
+
+
+#title {
+  font-size: 28px;
+  color: rgba(120, 0, 255, 0.86);
+  font-family: 'Raleway';
+  /* text-shadow: 2px 2px 0 rgb(88, 10, 177); */
+}
+
+#bodytext {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
 }
