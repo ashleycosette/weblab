@@ -70,10 +70,25 @@ div:nth-of-type(22) { animation: wave 17s  -0.773s linear infinite; }
 
 h4 {
   font-size: 30px;
-  text-decoration: none;
+  /* text-decoration: none;
+  color: pink; */
 }
 
-h4:hover {
+
+* a {
+  color: rgb(255, 0, 142);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  box-shadow: 8px 8px 0 white;
+}
+
+/* h4:hover {
   color: pink;
   text-decoration: underline;
-}
+} */
