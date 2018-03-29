@@ -117,11 +117,11 @@ $("#stepfive").click(function(){
   // $("#cookie").hide( "content-p5" );
 })
 
-// $("#stepone").click(function(){
-//   $(".content").addClass( "content-p6" );
-//   $("#title").html("Step One");
-//   $("#bodytext").html("Preheat oven to 350 degrees");
+$("#stepone").click(function(){
+  $(".content").addClass( "content-p6" );
+  $("#title").html("Step One");
+  $("#bodytext").html("Preheat oven to 350 degrees");
 
-
+});
 
     });
