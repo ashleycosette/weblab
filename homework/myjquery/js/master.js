@@ -132,8 +132,9 @@ $("#results").click(function(){
   $(".content").addClass( "content-p7" );
   $("#title").html("Results");
   $("#bodytext").html("So worth making these cookies");
-  $("#cookie").attr("src","images/result2.jpg") 
+  $("#cookie").attr("src","images/result2.jpg")
   $("#cookie").show();
+  $("#cookie").fadeOut(4000);
 
 });
 
