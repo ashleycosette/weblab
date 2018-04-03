@@ -100,7 +100,8 @@ $("#stepthree").click(function(){
   $(".content").addClass( "content-p3" );
   $("#title").html("Step Three");
   $("#bodytext").html("Stir in flour, baking soda and salt");
-  $("#cookie").hide();
+  $("#cookie").attr("src","images/bowl.jpg");
+  $("#cookie").show();
 })
 
 $("#stepfour").click(function(){
@@ -124,7 +125,8 @@ $("#stepone").click(function(){
   $(".content").addClass( "content-p6" );
   $("#title").html("Step One");
   $("#bodytext").html("Preheat oven to 350 degrees");
-  $("#cookie").hide();
+  $("#cookie").attr("src","images/oven.jpg");
+  $("#cookie").show();
 
 });
 
