@@ -19,3 +19,27 @@ font-size: 46px;
 color: #000000;
 text-align: center;
 }
+
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  width: 600px;
+}
+
+nav ul li {
+  /* background: pink; */
+  width: 100px;
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li:hover {
+  background: pink;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
