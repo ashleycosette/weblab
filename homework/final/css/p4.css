@@ -1,0 +1,71 @@
+body {
+  background: rgba(255, 214, 247, 0.84);
+  color: rgb(252, 64, 239);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h2 {
+  color: purple;
+  font-family: 'Raleway';
+  font-size: 26px;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+em {
+  color: red;
+}
+
+b {
+  color: rgb(178, 91, 255);
+  font-size: 14px;
+}
+
+
+#name {
+  color: purple;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 42px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+#address {
+  color: rgb(252, 64, 239);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.year {
+  color: purple;
+}
+
+.company, .state {
+  color: red;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.final {
+ margin-bottom: 100px;
+}
