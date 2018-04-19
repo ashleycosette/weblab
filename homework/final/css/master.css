@@ -3,7 +3,7 @@ header {
   background: rgb(0, 0, 0);
   color: white;
   font-family: 'Raleway';
-  font-size: 42px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 30px;
   text-shadow: 2px 2px 0 #000;
@@ -15,6 +15,7 @@ header {
 h1 {
   /* Hi my name is Ashley: */
 font-family: Raleway;
-font-size: 64px;
+font-size: 46px;
 color: #000000;
+text-align: center;
 }
