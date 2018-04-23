@@ -3,6 +3,18 @@ body {
   overflow: hidden;
 }
 
+.header {
+  grid-area: header;
+  background: rgb(255, 0, 142);
+  color: white;
+  font-family: 'Raleway';
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+
 span {
   position: relative;
   display: block;
