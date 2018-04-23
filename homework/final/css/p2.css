@@ -2,9 +2,34 @@
   background: blue;
 } */
 
-.magazine {
+.Magazine {
 width: 50%;
+height: 50%
 margin: auto;
 border: 8px solid white;
 padding: 10px;
   }
+
+.Brochure {
+width: 50%;
+height: 50%
+margin: auto;
+border: 8px solid white;
+padding: 10px;
+  }
+
+.Ad {
+width: 50%;
+height: 50%
+margin: auto;
+border: 8px solid white;
+padding: 10px;
+  }
+
+.Logo {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 8px solid white;
+  padding: 10px;
+    }
