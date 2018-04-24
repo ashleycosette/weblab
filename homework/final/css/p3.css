@@ -3,6 +3,22 @@ body {
   overflow: hidden;
 }
 
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  width: 600px;
+  font-size: 20px;
+}
+
+nav ul li {
+  /* background: pink; */
+  width: 100px;
+  display: inline-block;
+  padding: 20px;
+}
+
+
 .header {
   grid-area: header;
   background: rgb(255, 0, 142);
