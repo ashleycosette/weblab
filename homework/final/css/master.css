@@ -1,6 +1,7 @@
+
 header {
   grid-area: header;
-  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.5);
   color: white;
   font-family: 'Raleway';
   font-size: 16px;
@@ -16,10 +17,16 @@ h1 {
   /* Hi my name is Ashley: */
 font-family: Raleway;
 font-size: 46px;
-color: #000000;
+color: #fff;
 text-align: center;
 }
 
+h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  font-family: sans-serif;
+}
 
 nav ul {
   list-style: none;
