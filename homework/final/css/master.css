@@ -7,7 +7,7 @@ header {
   font-size: 16px;
   text-align: center;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 0 #000;
+  /* text-shadow: 2px 2px 0 #000; */
   background-image: url('../images/star.svg'), url('../images/star.svg');
   background-repeat: no-repeat, no-repeat;
   background-position: 10px,  99%;
