@@ -1,5 +1,6 @@
 body {
   background: rgb(0, 224, 255);
+  background: white;
   overflow: hidden;
 }
 
@@ -23,7 +24,6 @@ nav ul {
   list-style: none;
   margin: auto;
   width: 600px;
-  font-size: 20px;
 }
 
 nav ul li {
@@ -248,5 +248,13 @@ nav ul li:hover {
 
 nav a {
   color: #fff;
+  color: white;
   text-decoration: none;
+}
+
+.code {
+  color: #000;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-align: center;
 }
