@@ -27,12 +27,18 @@ header {
   background-position: 10px,  99%;
 }
 
+.activate:hover {
+  border: 1px solid #000;
+}
+
+
+
 
 .Magazine {
 width: 50%;
 height: 50%
 margin: auto;
-border: 8px solid white;
+border: 1px solid white;
 padding: 10px;
   }
 
@@ -40,7 +46,7 @@ padding: 10px;
 width: 50%;
 height: 50%
 margin: auto;
-border: 8px solid white;
+border: 1px solid white;
 padding: 10px;
   }
 
@@ -48,7 +54,7 @@ padding: 10px;
 width: 50%;
 height: 50%
 margin: auto;
-border: 8px solid white;
+border: 1px solid white;
 padding: 10px;
   }
 
@@ -56,7 +62,7 @@ padding: 10px;
   width: 50%;
   height: 50%
   margin: auto;
-  border: 8px solid white;
+  border: 1px solid white;
   padding: 10px;
     }
 
