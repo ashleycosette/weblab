@@ -258,3 +258,20 @@ nav a {
   font-size: 16px;
   text-align: centhttps://ashleycosette.github.io/weblab/er;
 }
+
+
+
+.tab1 {
+  grid-area: tab1;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.tab2 {
+  grid-area: tab2;
+}
+
+.tab3 {
+  grid-area: tab3;
+}
