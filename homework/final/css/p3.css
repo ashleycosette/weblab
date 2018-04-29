@@ -275,3 +275,71 @@ nav a {
 .tab3 {
   grid-area: tab3;
 }
+
+
+
+.Magazine {
+width: 50%;
+height: 50%
+margin: auto;
+border: 1px solid white;
+padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+  .activate:hover {
+    border: 1px solid #000;
+  }
+
+
+
+
+  .Magazine {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+    }
+
+  .Brochure {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+    }
+
+  .Ad {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+    }
+
+  .Logo {
+    width: 50%;
+    height: 50%
+    margin: auto;
+    border: 1px solid white;
+    padding: 10px;
+      }
+
+      .image-container img {
+        /* width: 200px;
+        display: inline-block;
+        margin: 20px; */
+        width: 400px;
+        margin: auto;
+        display: inline-block;
+        border: 8px solid white;
+        padding: 10px;
+      }
