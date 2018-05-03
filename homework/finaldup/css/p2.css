@@ -1,0 +1,97 @@
+/* body {
+  background: blue;
+} */
+
+/* .header {
+  grid-area: header;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-family: 'Raleway';
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 0 #000;
+} */
+
+header {
+  grid-area: header;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  /* text-shadow: 2px 2px 0 #000; */
+  background-image: url('../images/star.svg'), url('../images/star.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10px,  99%;
+}
+
+.activate:hover {
+  border: 1px solid #000;
+}
+
+
+
+
+.Magazine {
+width: 50%;
+height: 50%
+margin: auto;
+border: 1px solid white;
+padding: 10px;
+  }
+
+.Brochure {
+width: 50%;
+height: 50%
+margin: auto;
+border: 1px solid white;
+padding: 10px;
+  }
+
+.Ad {
+width: 50%;
+height: 50%
+margin: auto;
+border: 1px solid white;
+padding: 10px;
+  }
+
+.Logo {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+    }
+
+    .image-container img {
+      width: 200px;
+      display: inline-block;
+      margin: 20px;
+    }
+
+
+    nav ul {
+      list-style: none;
+      margin: auto;
+      width: 600px;
+    }
+
+    nav ul li {
+      /* background: pink; */
+      width: 100px;
+      display: inline-block;
+      padding: 20px;
+    }
+
+    nav ul li:hover {
+      background: pink;
+    }
+
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }

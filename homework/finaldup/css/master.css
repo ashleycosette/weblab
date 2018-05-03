@@ -1,0 +1,52 @@
+
+header {
+  grid-area: header;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  /* text-shadow: 2px 2px 0 #000; */
+  background-image: url('../images/star.svg'), url('../images/star.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10px,  99%;
+}
+
+h1 {
+  /* Hi my name is Ashley: */
+font-family: Raleway;
+font-size: 46px;
+color: #fff;
+text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  width: 600px;
+}
+
+nav ul li {
+  /* background: pink; */
+  width: 100px;
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li:hover {
+  background: pink;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
