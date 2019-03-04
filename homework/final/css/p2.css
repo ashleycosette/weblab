@@ -31,6 +31,14 @@ header {
   border: 1px solid #000;
 }
 
+.Buzzfeed{
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+}
+
 .Typography{
   width: 50%;
   height: 50%
