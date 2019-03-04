@@ -31,8 +31,21 @@ header {
   border: 1px solid #000;
 }
 
+.Typography{
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+}
 
-
+.Pentool {
+  width: 50%;
+  height: 50%
+  margin: auto;
+  border: 1px solid white;
+  padding: 10px;
+}
 
 .Magazine {
 width: 50%;
